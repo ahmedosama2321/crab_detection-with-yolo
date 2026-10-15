@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+.venv-old/
+
+# Dataset - do not upload images or labels
+dataset/
+datasets/
+
+# Trained models and checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+
+# Training runs, predictions, and evaluation results
+runs/
+wandb/
+mlruns/
+
+# Python notebooks
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
